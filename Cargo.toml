@@ -1,6 +1,7 @@
 [workspace]
 members = [
     "light-poseidon",
+    "light-poseidon-python",
     "xtask",
 ]
 resolver = "2"

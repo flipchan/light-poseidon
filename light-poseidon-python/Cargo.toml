@@ -1,0 +1,18 @@
+[package]
+name = "light-poseidon-python"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "light_poseidon_python"
+crate-type = ["cdylib"]
+
+[dependencies]
+light-poseidon = { path = "../light-poseidon" }
+ark-bn254 = "0.5.0"
+ark-ff = "0.5.0"
+hex = "0.4.3"
+
+[dependencies.pyo3]
+version = "0.23"
+features = ["extension-module"]
