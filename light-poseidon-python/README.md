@@ -2,6 +2,13 @@
 
 Python bindings for [light-poseidon](https://github.com/Lightprotocol/light-poseidon), originally by [Mike Rostecki](https://github.com/vadorovsky). This package is a fork providing Python access to the Poseidon hash implementation for the BN254 curve.
 
+
+## Install from pypi:
+```bash
+pip3 install light-poseidon
+
+```
+
 ## Compatibility
 
 This package is made to be compatible with [Kusama Shield's PoseidonPolkaVM](https://codeberg.org/KusamaShield/PoseidonPolkaVM).
